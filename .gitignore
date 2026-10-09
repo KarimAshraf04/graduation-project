@@ -1,0 +1,25 @@
+# Python / environment
+venv/
+__pycache__/
+*.pyc
+.vscode/
+
+# Run outputs (videos, faces, CSVs)
+results/
+runs/
+weights/
+
+# Training data and runs (big; re-download / re-create with the scripts)
+training/data/
+training/runs/
+
+# Model weights: YOLO and MediaPipe download them automatically on first run
+*.pt
+*.task
+models/tracker.yaml
+# ...except our trained bag model (~20 MB)
+!models/bags_best.pt
+
+# OS junk
+Thumbs.db
+desktop.ini

@@ -1,0 +1,10 @@
+# PyTorch (GPU) is installed separately by setup.ps1 from the CUDA index:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# onnxruntime-gpu is also installed by setup.ps1:
+#   pip install "onnxruntime-gpu[cuda,cudnn]"
+ultralytics
+opencv-python
+insightface
+lap>=0.5.12
+mediapipe
+numpy
